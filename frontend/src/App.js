@@ -11,6 +11,7 @@ import Vaccination from "./pages/Vaccination";
 import Nutrition from "./pages/Nutrition";
 import AIRisk from "./pages/AIRisk";
 import Community from "./pages/Community";
+import Analytics from "./pages/Analytics";
 
 class ErrorBoundary extends React.Component {
   constructor(props) {
@@ -69,6 +70,7 @@ export default function App() {
             <Route path="/nutrition" element={<Nutrition />} />
             <Route path="/risk" element={<AIRisk />} />
             <Route path="/community" element={<Community />} />
+            <Route path="/analytics" element={<Analytics />} />
             <Route path="*" element={<Home />} />
           </Routes>
         </main>
