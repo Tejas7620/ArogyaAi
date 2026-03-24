@@ -15,32 +15,3 @@ Your AI-powered Maternal & Child Health Companion. Designed to support mothers t
 *   **ML Service**: Python 3.14 compatible, FastAPI, Numpy, Scikit-learn, Uvicorn
 *   **Backend**: Node,MongoDB 
 
-## Local Setup Instructions
-
-### 1. Launch the ML Service (Backend)
-Navigate into the ML directory and install dependencies:
-```bash
-cd ml-service
-python -m venv .venv
-# Activate virtual environment (Windows):
-.venv\Scripts\activate
-# Install requirements:
-pip install -r requirements.txt
-# Start the FastAPI server:
-python -m uvicorn app:app --reload
-```
-*The API will be available at `http://localhost:8000`.*
-
-### 2. Launch the Web Client (Frontend)
-In a separate terminal, navigate into the frontend directory:
-```bash
-cd frontend
-# Install React dependencies
-npm install
-# Start the development server
-npm start
-```
-*The Web App will automatically open at `http://localhost:3001`.*
-
-## License
-© 2025 CareMaa
