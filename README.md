@@ -13,6 +13,7 @@ Your AI-powered Maternal & Child Health Companion. Designed to support mothers t
 ## Technology Stack
 *   **Frontend**: React.js v18, React Router v6, Custom CSS
 *   **ML Service**: Python 3.14 compatible, FastAPI, Numpy, Scikit-learn, Uvicorn
+*   **Backend**: Node,MongoDB 
 
 ## Local Setup Instructions
 
