@@ -1,4 +1,4 @@
-# CareMaa 🌺
+# ArogyaAi 🌺
 
 Your AI-powered Maternal & Child Health Companion. Designed to support mothers through every stage—from period tracking and pregnancy to post-natal care and immunizations.
 
